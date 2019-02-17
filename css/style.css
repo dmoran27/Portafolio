@@ -1,0 +1,150 @@
+/*body{
+font-family: 'Playfair Display SC', serif;
+font-family: 'Abhaya Libre', serif;
+}*/
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	background: url('../img/bg2.jpg'), #d52349;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+overflow: hidden;
+	height: 1000px;
+	position: relative;
+
+}
+
+
+header .informacion{
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	font-family: 'Abhaya Libre', serif;
+}
+
+header .informacion .name{
+	color: #000;
+	font-weight: bold;
+}
+ 
+.span{
+    color:#000;
+}
+
+.menu{
+	font-size: 0.9em;
+	font-family: 'Playfair Display SC', serif;
+}
+
+.menu a{
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+}
+ .menu a:hover{
+ 	border-bottom:  5px solid #000;
+ 	background: rgba(0,0,0,.5);
+ }
+
+
+.acercaDe{
+	margin: 90px 0;
+	padding: 40px;
+
+}
+
+.acercaDe .contenedor{
+	
+	position: relative;
+	height: 400px;
+}
+
+.acercaDe .contenedor .imagen{
+	width: 50%;
+	position: absolute;
+	z-index: 0;
+	left: 0;
+
+}
+
+.acercaDe .contenedor .imagen img{
+	width: 100%;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0,.35);
+}
+
+
+
+.descripcionTexto{
+	width: 60%;
+
+font-family: 'Abhaya Libre', serif;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	float: right;
+	top: 500px;
+	padding: 40px;
+	background: #fff;
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 25px;
+	font-family: 'Playfair Display SC', serif;
+	color: #d52349;
+}
+.btnInicio{
+	background: #d52349;	
+}
+
+textarea{
+	max-height: 150px;
+	min-height: 50px;
+}
+@media screen and (max-width: 768px){
+	 
+	 .menu a:hover{
+ 		border-bottom: none;
+ 		background: rgba(0,0,0,.5);
+	 }
+
+	.acercaDe{
+		margin-bottom: 0px;
+	}
+	
+	 .acercaDe .contenedor .descripcionTexto{
+	 	width: 100%;
+		position: static;
+		padding-top: 10px;
+	 }
+	 .acercaDe .contenedor .imagen{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 544px) {
+ .acercaDe .contenedor .descripcionTexto{
+ 	width: 100%;
+		position: static;
+		padding-top: 10px;
+		box-shadow: none;
+ }
+ 
+}
