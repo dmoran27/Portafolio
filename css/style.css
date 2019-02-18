@@ -19,8 +19,9 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
-overflow: hidden;
-	height: 1000px;
+	overflow: hidden;
+	
+	height: 850px;
 	position: relative;
 
 }
@@ -119,6 +120,9 @@ textarea{
 }
 @media screen and (max-width: 768px){
 	 
+	 header{
+	 	height: 900px;
+	 }
 	 .menu a:hover{
  		border-bottom: none;
  		background: rgba(0,0,0,.5);

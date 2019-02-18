@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</main>
-	<div class="container">
+	<section class="container">
 
 		<section class="acercaDe  row" id="AcercaDe">
 			<div class="contenedor">
@@ -84,7 +84,7 @@
 					<h2 class="titulo text-justify">Acerca De</h2>
 					<p>		Persona paciente, con habilidades en proceso de crecimiento, responsable, disciplinada, creativa y de rápido aprendizaje, con muchas ganas de adquirir nuevas experiencias y conocimientos relacionadas al área de las tecnologías informáticas.</p>
 
-					<a href="#" class="text-white rounded p-2 border-0 bg-dark " id="Curriculum"><i class="fa fa-download mr-3"></i>Curriculum</a>
+					<a href="https://www.dropbox.com/s/j7k56tnikmjr9kz/Curriculum.pdf?dl=0" class="text-white rounded p-2 border-0 bg-dark " id="Curriculum"><i class="fa fa-download mr-3"></i>Curriculum</a>
 				</div>	
 
 			</div>
@@ -208,76 +208,87 @@
 			</div>
 		</section>
 
-		<section class="Diseños row mt-5 mb-5" id="Diseños">
-			<h2 class="titulo col-12 mb-5">Diseños web</h2>
-			<div class="col">
-			    <div class="card-columns">
-			        <div class="card  m-1">
-			            <div class="contenedor-imagen pt-3">
-			                <a href="#" data-toggle="modal" data-target="#modal">
-			                    <img src="img/1.jpg" class="img card-img-top" alt="">
-			                </a>
-			            </div>
-			            <div class="link d-flex justify-content-center pb-3">
-			                <p class="card-text font-weight-bold"> Logo </p>        
-			            </div>
-			           
-			        </div>
-			        <div class="card  m-1">
-			            <div class="contenedor-imagen pt-3">
-			                <a href="#" data-toggle="modal" data-target="#modal">
-			                    <img src="img/2.jpg" class="img card-img-top" alt="">
-			                </a>
-			            </div>
-			            <div class="link d-flex justify-content-center pb-3">
-			                <p class="card-text font-weight-bold"> Logo2 </p>        
-			            </div>
-			           
-			        </div>
-			        
-			        <div class="card  m-1">
-			            <div class="contenedor-imagen pt-3">
-			                <a href="#" data-toggle="modal" data-target="#modal">
-			                    <img src="img/3.jpg" class="img card-img-top" alt="">
-			                </a>
-			            </div>
-			            <div class="link d-flex justify-content-center pb-3">
-			                <p class="card-text font-weight-bold"> Logo3 </p>        
-			            </div>
-			           
-			        </div>
-			    </div>
-			    </div>
-			</div>	
-		</section>
+<section class="DiseñosA row mt-5 mb-5" id="DiseñosA">
+			<h2 class="titulo col-12 mb-5">Diseños</h2>
 
+			<div id="carouselExampleIndicators" class="carousel slide col" data-ride="carousel">
+			 	<ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			 	</ol>
+			  	<div class="carousel-inner">
+				    <div class="carousel-item active">
+				        <div class="card-columns">
+						        <div class="card  m-1">
+						            <div class="contenedor-imagen pt-3">
+						                <a href="#" data-toggle="modal" data-target="#modal">
+						                    <img src="img/1.jpg" class="img card-img-top" alt="">
+						                </a>
+						            </div>
+						            <div class="link d-flex justify-content-center pb-3">
+						                <p class="card-text font-weight-bold"> Logo </p>        
+						            </div>
+						           
+						        </div>
+						        <div class="card  m-1">
+						            <div class="contenedor-imagen pt-3">
+						                <a href="#" data-toggle="modal" data-target="#modal">
+						                    <img src="img/2.jpg" class="img card-img-top" alt="">
+						                </a>
+						            </div>
+						            <div class="link d-flex justify-content-center pb-3">
+						                <p class="card-text font-weight-bold"> Logo2 </p>        
+						            </div>
+						           
+						        </div>
+						        
+						        <div class="card  m-1">
+						            <div class="contenedor-imagen pt-3">
+						                <a href="#" data-toggle="modal" data-target="#modal">
+						                    <img src="img/3.jpg" class="img card-img-top" alt="">
+						                </a>
+						            </div>
+						            <div class="link d-flex justify-content-center pb-3">
+						                <p class="card-text font-weight-bold"> Logo3 </p>        
+						            </div>
+						           
+							    </div>
+						</div>
+				</div>	
+				  
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			
+		</section>
 		<section class="Contacto row d-flex justify-content-center" id="Contacto">
 			<h2 class="col-12 text-center titulo d-block">Contacto</h3>
-			<div class="col-md-6 p-5 bg">
-                	<form action="" method="POST">
-		                  <input type="email" name="email" class="form-control  mb-3 shadow-sm p-3  bg-white rounded border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduzca su Correo Electronico">
-		                  <input type="text"  name="text" class="form-control shadow-sm mb-3 p-3 bg-white rounded border-0" id="text" placeholder="Introduzca su Nombre">
-		                  <textarea class="form-control shadow-sm mb-3 p-3 bg-white rounded border-0" id="textarea" placeholder="Itroduzca su Mensaje"></textarea> 
-		                  <button type="submit" class="btn btn-dark btn-lg btn-block mt-5 ">Enviar</button>
-		            </form>
-        	</div>			
-		
-			<div class="col-md-1 py-md-5 mx-5 mx-md-0  d-flex flex-md-wrap justify-content-center align-items-center ">
-        		 <a href="#"  class=" text-center w-100 rounded-circle bg-dark text-white d-block p-3 ">
+			
+			<div class="col py-md-5 mx-5 mx-md-0  d-flex flex-md-wrap justify-content-between align-items-center ">
+        		 <a href="#"  class=" text-center rounded-circle bg-dark text-white p-5 ">
 					<i class="fab fa-github"></i>
 				</a>		
-				<a href="#"  class=" text-center w-100 rounded-circle  bg-dark text-white d-block p-3">
+				<a href="#"  class=" text-center rounded-circle  bg-dark text-white p-5">
 					<i class="fab fa-linkedin-in"></i>
 				</a>
-				<a href="#"  class=" text-center w-100 rounded-circle  bg-dark text-white d-block p-3 ">
+				<a href="#"  class=" text-center rounded-circle  bg-dark text-white p-5 ">
 					<i class="fab fa-facebook-f"></i>
 				</a>				
-				<a href="#"  class=" text-center w-100 rounded-circle  bg-dark text-white d-block p-3 ">
+				<a href="#"  class=" text-center rounded-circle  bg-dark text-white p-5 ">
 					<i class="fab fa-instagram"></i>
 				</a>				
 					
             		
 			</div>
+        		
 		</section>
 		<div class=" row modal fade" id="modal">
 		    <div class="col modal-dialog d-flex w-100 h-100 justify-content-center align-items-center">
@@ -289,13 +300,13 @@
 
 		<div class="row">
 			<div class="col-12 d-flex justify-content-end">
-				<a href="#" id="btnInicio2" class="fixed-buttom border-0 p-4 btnInicio rounded-circle mb-3 mr-5"><i class="text-white fa fa-angle-double-up"></i>
+				<a href="#" id="btnInicio2" class="fixed-buttom border-0 p-4 btnInicio rounded-circle mb-3"><i class="text-white fa fa-angle-double-up"></i>
 				</a>
 			</div>
 		</div>
-	</div>
-	<footer class="p-2  container-fluid bg-dark text-white">
-		<div class="row">
+    </section>
+	<footer class="py-2  container-fluid bg-dark text-white">
+		
 			<div class="col-12 text-center">Diana Moran-2018</div>
 			
 		</div>	
