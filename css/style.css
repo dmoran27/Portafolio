@@ -21,7 +21,7 @@ header{
 	background-position: center 0;
 	overflow: hidden;
 	min-height: 100vh;
-	max-width: 100vh
+	max-height:  100vh;
 	position: relative;
 
 }
