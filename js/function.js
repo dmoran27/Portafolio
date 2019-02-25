@@ -80,14 +80,14 @@ $(document).ready(function(){
 		acercaDe = $('#AcercaDe').offset().top,
 		herramientas = $('#Herramientas').offset().top,
 		trabajos = $('#Trabajos').offset().top,
-		diseños = $('#Diseños').offset().top,
+		diseños = $('#Disenos').offset().top,
 		contacto = $('#Contacto').offset().top,
 		top1 = $('#Top1').offset().top;
 		
 	$('#button1').on('click', function(){
 		$('html, body').animate({
 			scrollTop: top1			
-		}, 800);
+		}, 700);
 		
 	});
 	$('#btnInicio').on('click', function(){
@@ -95,6 +95,7 @@ $(document).ready(function(){
 			scrollTop: inicio
 		}, 500);
 	});
+
 	$('#btnInicio2').on('click', function(){
 		$('html, body').animate({
 			scrollTop: inicio
