@@ -8,7 +8,7 @@ $(document).ready(function(){
 				'transform': 'translate(0px, '+ scroll / 2 +'%)'
 			});
 			$('.acercaDe .descripcionTexto').css({
-				'transform': 'translate(0px, -'+ scroll / 5 +'%)'
+				'transform': 'translate(0px, -'+ scroll / 6 +'%)'
 			});
 		}
 		
